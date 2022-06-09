@@ -3,7 +3,7 @@ from IPython.display import YouTubeVideo
 from typing import Generator
 
 def show_link(url, title='Authorize'):
-    display(HTML(f'Click <a href="{url}" target="_blank">{title}</a> or open {url} in your browser'))
+    display(HTML(f'Click <a href="{url}" target="_blank">{title}</a> or open {url} in your PC'))
 
 def video(id):
     return YouTubeVideo(id, width=700, height=400)
