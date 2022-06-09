@@ -13,9 +13,6 @@ setup(
     packages=find_packages(exclude=['contrib', 'docs', 'tests']),
     url='https://github.com/madiedinro/rodin_helpers_py',
     include_package_data=True,
-    install_requires=[
-        'ujson>=1.35,<2'
-    ],
     zip_safe=False,
     classifiers=[
         'Development Status :: 3 - Alpha',
